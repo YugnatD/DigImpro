@@ -11,6 +11,7 @@ Simple library coded in TI Basic to help student with the course of Digital Imag
 - dilation(m,k)
 - open(m,k)
 - close(m,k)
+- hitormiss(m,b)
 ## Tested on
 - TI-nspire CX II-T CAS
 ## Paramters of the functions
@@ -42,6 +43,9 @@ Simple library coded in TI Basic to help student with the course of Digital Imag
     - close(m,k)
         - m: matrix
         - k: structucual matrix (put 1 where you need)
+- hitormiss(m,b)
+	- m: matrix
+	- b: structural element (must be 0,1, or infinite for dont care)
     
 ## WARNING
 in TI BASIC the index of the matrix start from 1, not from 0.
