@@ -2,6 +2,7 @@
 Simple library coded in TI Basic to help student with the course of Digital Image Processing.
 ## Implemented functions
 - Conv2d(m, k)
+- conv1d(f, h)
 - bilinear(x,y,m)
 - nearestneighbor(x,y,m)
 - covariance_vec(x,y,b)
@@ -16,6 +17,9 @@ Simple library coded in TI Basic to help student with the course of Digital Imag
 - Conv2D(m,k)
   - m: matrix
   - k: kernel
+- Conv1D(f,h)
+  - f: vector 1
+  - k: vector 2
 - bilinear(x,y,m)
     - x: x coordinate
     - y: y coordinate
