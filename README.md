@@ -19,6 +19,9 @@ Simple library coded in TI Basic to help student with the course of Digital Imag
 - dft_2d(m)
 - idft_2d(m)
 - bayes_osc(x1,x2,a)
+- morpho_grad_in(m,b)
+- morpho_grad_out(m,b) 
+- morpho_grad(m,b)
 ## Tested on
 - TI-nspire CX II-T CAS
 ## Paramters of the functions
@@ -53,6 +56,9 @@ Simple library coded in TI Basic to help student with the course of Digital Imag
     - close(m,k)
 	- white_top_hat(m,b,v)
 	- black_top_hat(m,b,v)
+    - morpho_grad_in(m,b)
+    - morpho_grad_out(m,b) 
+    - morpho_grad(m,b)
         - m: matrix
         - k-b: structucual matrix (put 1 where you need)
 		- v: verbose mode
