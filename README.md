@@ -74,10 +74,11 @@ Simple library coded in TI Basic to help student with the course of Digital Imag
 		- x: vector line
 		- m: matrix
 - Pattern Classification
-	- bayes_osc(x1,x2,a) -> bayes Optimal statistical classifier
+	- bayes_osc(x1,x2,a,b) -> bayes Optimal statistical classifier
 		- x1: classe1
 		- x2: classe2
 		- a: formula to use, page 926
+		- b: bias 
     
 ## WARNING
 in TI BASIC the index of the matrix start from 1, not from 0.
